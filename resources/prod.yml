@@ -1,0 +1,14 @@
+credits:
+
+  iamRoleResources:
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/prod-auths"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/prod-tickle"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/prod-delete"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/prod-charts"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/prod-tickle/index/*"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/prod-delete/index/*"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/prod-charts/index/*"
+    - "arn:aws:lambda:ap-northeast-2:${self:custom.accountId}:function:robo-advisor-api-prod-handler"
+  tickleTable: prod-tickle
+  chartTable: prod-charts
+  stage: prod

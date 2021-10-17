@@ -1,0 +1,14 @@
+credits:
+
+  iamRoleResources:
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/dev-auths"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/dev-tickle"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/dev-delete"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/dev-charts"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/dev-tickle/index/*"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/dev-delete/index/*"
+    - "arn:aws:dynamodb:ap-northeast-2:${self:custom.accountId}:table/dev-charts/index/*"
+    - "arn:aws:lambda:ap-northeast-2:${self:custom.accountId}:function:robo-advisor-api-dev-handler"
+  tickleTable: dev-tickle
+  chartTable: dev-charts
+  stage: dev

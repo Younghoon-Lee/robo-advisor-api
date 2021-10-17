@@ -1,0 +1,36 @@
+{
+  "field":"sharpeRecommendedPortfolio",
+  "arguments":{
+    "portfolio": {
+      "items": [
+        {
+          "amount": 10000,
+          "stockId": "US8447411088"
+        },
+        {
+          "amount": 10000,
+          "stockId": "US0090661010"
+        },
+        {
+          "amount": 10000,
+          "stockId": "US9100471096"
+        },
+        {
+          "amount": 10000,
+          "stockId": "US0378331005"
+        }
+      ],
+      "cashAmount": 10000
+      
+
+    }
+    
+    
+    
+  }
+}
+
+
+
+  
+  
